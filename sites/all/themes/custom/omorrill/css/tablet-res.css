@@ -1,0 +1,188 @@
+
+/* FOR TABLETS */
+@media all and (min-width: 480px) and (max-width: 959px) {
+  body {
+	margin: 0;
+	background-color: #000;
+  }
+  header {
+	margin-bottom: 0;
+	width: 100%;
+  }
+    #owen-logo {
+	  float: left;
+	  width: 12%;
+	}
+	#name-and-slogan {
+	  float: left;
+	  width: 99%;
+	  text-align: center;
+	}
+	#site-name a {
+	  font-size: 190%;
+	  padding: 3px;
+	  margin: 0px;
+	  text-decoration: none;
+	  color: #ffffff;
+	  font-family: Trajan Pro, Garamond, serif;
+	}
+	#site-slogan {
+	  font-size: 100%;
+	  font-style: italic;
+	  margin-left: 3px;
+	  padding-left: 6px;
+	  color: #ffffff;
+	}
+  /* line 352, ../sass/main.scss */
+  #wrapper {
+	min-width: 0;
+	width: auto;
+	margin: 0;
+  }
+  div#main-wrapper.center {
+    padding-top: 0px;
+  }
+  /* line 357, ../sass/main.scss */
+  form #contactForm {
+	display: none;
+  }
+  /* line 360, ../sass/main.scss */
+  article {
+	margin: 0;
+	padding-top: 0.1em;
+	padding-bottom: 0.1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	font-size: 90%;
+  }
+  h1, h2, h3, h4, h5, h6{
+	font-family: Trajan Pro, Garamond, serif;
+	color: #ffffff;
+  }
+  /* line 368, ../sass/main.scss */
+  h1 {
+	margin: 0;
+	font-size: 1.5em;
+	padding-left: 0.3em;
+  }
+  /* line 373, ../sass/main.scss */
+  h2 {
+	margin: 0;
+	font-size: 1.35em;
+	padding-left: 0.2em;
+	margin-top: 4px;
+	border-bottom: 1px solid black;
+  }
+  /* line 380, ../sass/main.scss */
+  h3 {
+	margin: 0;
+	font-size: 1.15em;
+	padding-left: 0.15em;
+	margin-top: 3px;
+  }
+  p {
+	font-family: Garamond, serif;
+	color: #ffffff;
+	font-size: 110%;
+  }
+  nav {
+  display: block;
+  margin-left: -15px;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  min-width: 80%;
+  width: 105%;
+  background-image: url("/sites/all/themes/custom/omorrill/images/navbar.jpg");
+  background-size: cover;
+  background-position: bottom left;
+	background-repeat: repeat-x;
+  min-height: 250px;
+}
+
+nav ul {
+  text-align: center;
+  font-size: 120%;
+  min-width: 25%;
+}
+
+nav ul li {
+  display: inline;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+nav ul li a {
+  display: inline-block;
+  margin: 2px;
+  padding: 12px;
+}
+
+nav a:link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+nav a:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+nav a:active {
+  text-decoration: none;
+  color: #808080;
+}
+
+nav a:focus {
+  text-decoration: none;
+  color: #808080;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: #808080;
+}
+  #sidebar-second {
+    position: relative;
+    clear: both;
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+  }
+  #sidebar-second #block-twitter-block-1 .content {
+    background-color: #fff;
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+	border-radius: 10px;
+  }
+	a {
+	  color: #808080;
+	  font-weight: 900;
+	}
+	#main .article {
+	  width: 100%;
+	}
+  article {
+	margin: 0;
+	padding-top: 0.1em;
+	padding-bottom: 0.1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	font-size: 90%;
+  }
+  article .title {
+    font-size: 2em;
+  }
+  .post-date {
+    color: #ffffff;
+  }
+	.submitted {
+	  color: #808080;
+	}
+	.pager-current {
+	  color: #fff;
+	}
+}
